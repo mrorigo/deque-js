@@ -1,0 +1,8 @@
+!10
+loop: !dup !0 !>= !end !jmpif
+  !dup !print
+  !1 !sub
+!loop !jmp
+end:
+!print
+!exit
